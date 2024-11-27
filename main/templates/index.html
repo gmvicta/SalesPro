@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Forecasting</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            color: #4CAF50;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .section {
+            padding: 20px;
+            background: #f4f4f4;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .section:hover {
+            background-color: #e7f5e7;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+            color: #333;
+        }
+
+        label {
+            font-size: 1rem;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        select:focus, input:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .result {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .result h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .result ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .result li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .error {
+            color: red;
+            font-size: 1.1rem;
+        }
+
+        .success {
+            color: green;
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            select, input, button {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sales Forecasting</h1>
+        <p>Welcome to the Sales Forecasting Tool. Please select the options below to predict sales.</p>
+
+        <!-- Monthly Sales Prediction -->
+        <form id="monthlyForm">
+            <div class="section">
+                <h3>Monthly Sales Prediction</h3>
+                <div class="form-group">
+                    <label for="months">Enter how many months to predict (1-12):</label>
+                    <input type="number" id="months" min="1" max="12" required>
+                </div>
+                <button type="submit">Predict Monthly Sales</button>
+            </div>
+        </form>
+
+        <!-- Results Section for Monthly Sales -->
+        <div class="result" id="monthlyResultContainer">
+            <canvas id="monthlyChart"></canvas> <!-- Canvas for the monthly chart -->
+        </div>
+
+        <!-- Yearly Sales Prediction -->
+        <form id="yearlyForm">
+            <div class="section">
+                <h3>Yearly Sales Prediction</h3>
+                <div class="form-group">
+                    <label for="years">Enter how many years to predict (1-50):</label>
+                    <input type="number" id="years" min="1" max="50" required>
+                </div>
+                <button type="submit">Predict Yearly Sales</button>
+            </div>
+        </form>
+
+        <div class="result" id="yearlyResultContainer">
+            <canvas id="yearlyChart"></canvas> <!-- Canvas for the yearly chart -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Declare chart instances outside of the event listeners
+        let monthlyChartInstance = null;
+        let yearlyChartInstance = null;
+    
+        // Handle Monthly Prediction Form Submission
+        document.getElementById("monthlyForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+    
+            let months = document.getElementById("months").value;
+            let resultContainer = document.getElementById("monthlyResultContainer");
+            let chartContainer = document.getElementById("monthlyChart").getContext('2d');  // Get context for chart
+    
+            // Validate input
+            if (!months) {
+                resultContainer.innerHTML = '<p class="error">Please enter the number of months to predict.</p>';
+                return;
+            }
+    
+            let data = { months_to_predict: months };
+    
+            fetch('/predict_sales', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    let monthlyPredictions = data.monthly_predictions;
+                    let monthsArray = [];
+                    let salesArrayKkopi = [];
+                    let salesArrayWaffly = [];
+                    let salesArrayWaterStation = [];
+                    let branches = ["Kkopi", "Waffly", "WaterStation"];
+    
+                    if (monthlyPredictions.length > 0) {
+                        monthlyPredictions.forEach(prediction => {
+                            if (!monthsArray.includes(`${prediction.Month} ${prediction.Year}`)) {
+                                monthsArray.push(`${prediction.Month} ${prediction.Year}`);
+                            }
+    
+                            if (prediction.Branch === "Kkopi") {
+                                salesArrayKkopi.push(prediction['Predicted Sales']);
+                            } else if (prediction.Branch === "Waffly") {
+                                salesArrayWaffly.push(prediction['Predicted Sales']);
+                            } else if (prediction.Branch === "WaterStation") {
+                                salesArrayWaterStation.push(prediction['Predicted Sales']);
+                            }
+                        });
+    
+                        // Destroy existing chart if it exists
+                        if (monthlyChartInstance) {
+                            monthlyChartInstance.destroy();
+                        }
+    
+                        // Create the new chart
+                        monthlyChartInstance = new Chart(chartContainer, {
+                            type: 'line',
+                            data: {
+                                labels: monthsArray,
+                                datasets: [
+                                    {
+                                        label: 'Predicted Sales for Kkopi',
+                                        data: salesArrayKkopi,
+                                        fill: false,
+                                        borderColor: '#FFA500', // Orange for Kkopi
+                                        tension: 0.1
+                                    },
+                                    {
+                                        label: 'Predicted Sales for Waffly',
+                                        data: salesArrayWaffly,
+                                        fill: false,
+                                        borderColor: '#D2B48C', // Light Brown for Waffly
+                                        tension: 0.1
+                                    },
+                                    {
+                                        label: 'Predicted Sales for WaterStation',
+                                        data: salesArrayWaterStation,
+                                        fill: false,
+                                        borderColor: '#42A5F5', // Blue for WaterStation
+                                        tension: 0.1
+                                    }
+                                ]
+                            },
+                            options: {
+                                responsive: true,
+                                scales: {
+                                    x: { 
+                                        beginAtZero: true
+                                    },
+                                    y: {
+                                        beginAtZero: true
+                                    }
+                                }
+                            }
+                        });
+    
+                    }
+                } else {
+                    resultContainer.innerHTML = `<p class="error">${data.message}</p>`;
+                }
+            })
+            .catch(error => {
+                resultContainer.innerHTML = `<p class="error">Error: ${error}</p>`;
+            });
+        });
+    
+        // Handle Yearly Prediction Form Submission
+        document.getElementById("yearlyForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+    
+            let years = document.getElementById("years").value;
+            let resultContainer = document.getElementById("yearlyResultContainer");
+            let chartContainer = document.getElementById("yearlyChart").getContext('2d');  // Get context for chart
+    
+            // Validate input
+            if (!years) {
+                resultContainer.innerHTML = '<p class="error">Please enter the number of years to predict.</p>';
+                return;
+            }
+    
+            let data = { years_to_predict: years };
+    
+            fetch('/predict_sales', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    let yearlyPredictions = data.yearly_predictions;
+                    let yearsArray = [];
+                    let salesArrayKkopi = [];
+                    let salesArrayWaffly = [];
+                    let salesArrayWaterStation = [];
+                    let branches = ["Kkopi", "Waffly", "WaterStation"];
+    
+                    if (yearlyPredictions.length > 0) {
+                        yearlyPredictions.forEach(prediction => {
+                            if (!yearsArray.includes(`${prediction.Year}`)) {
+                                yearsArray.push(`${prediction.Year}`);
+                            }
+    
+                            if (prediction.Branch === "Kkopi") {
+                                salesArrayKkopi.push(prediction['Predicted Sales']);
+                            } else if (prediction.Branch === "Waffly") {
+                                salesArrayWaffly.push(prediction['Predicted Sales']);
+                            } else if (prediction.Branch === "WaterStation") {
+                                salesArrayWaterStation.push(prediction['Predicted Sales']);
+                            }
+                        });
+    
+                        // Destroy existing chart if it exists
+                        if (yearlyChartInstance) {
+                            yearlyChartInstance.destroy();
+                        }
+    
+                        // Create the new chart
+                        yearlyChartInstance = new Chart(chartContainer, {
+                            type: 'line', // Changed to line chart for the yearly section
+                            data: {
+                                labels: yearsArray,
+                                datasets: [
+                                    {
+                                        label: 'Predicted Sales for Kkopi',
+                                        data: salesArrayKkopi,
+                                        fill: false,
+                                        borderColor: '#FFA500', // Orange for Kkopi
+                                        tension: 0.1
+                                    },
+                                    {
+                                        label: 'Predicted Sales for Waffly',
+                                        data: salesArrayWaffly,
+                                        fill: false,
+                                        borderColor: '#D2B48C', // Light Brown for Waffly
+                                        tension: 0.1
+                                    },
+                                    {
+                                        label: 'Predicted Sales for WaterStation',
+                                        data: salesArrayWaterStation,
+                                        fill: false,
+                                        borderColor: '#42A5F5', // Blue for WaterStation
+                                        tension: 0.1
+                                    }
+                                ]
+                            },
+                            options: {
+                                responsive: true,
+                                scales: {
+                                    x: { 
+                                        beginAtZero: true
+                                    },
+                                    y: {
+                                        beginAtZero: true
+                                    }
+                                }
+                            }
+                        });
+                    }
+                } else {
+                    resultContainer.innerHTML = `<p class="error">${data.message}</p>`;
+                }
+            })
+            .catch(error => {
+                resultContainer.innerHTML = `<p class="error">Error: ${error}</p>`;
+            });
+        });
+    </script>
+    
+</body>
+</html>
