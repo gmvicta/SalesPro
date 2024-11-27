@@ -1,0 +1,652 @@
+Date,Branch,Product,Size,Quantity Sold,Price,Total Sales
+2024-12-01,Kkopi,Coffee,Solo,19,39,741
+2024-12-01,Kkopi,Milktea,Jumbo,36,49,1764
+2024-12-01,Kkopi,Fruit Tea,Jumbo,31,49,1519
+2024-12-01,Waffly,Chocolate,Regular,100,29,2900
+2024-12-01,Waffly,Strawberry,Regular,52,29,1508
+2024-12-01,Waffly,Caramel,Regular,5,29,145
+2024-12-01,Waffly,Choco-berry,Regular,90,29,2610
+2024-12-01,Waffly,Choco-caramel,Regular,45,29,1305
+2024-12-01,Waffly,Berry-caramel,Regular,86,29,2494
+2024-12-01,Waffly,Chocolate,Large,31,39,1209
+2024-12-01,Waffly,Strawberry,Large,63,39,2457
+2024-12-01,Waffly,Caramel,Large,37,39,1443
+2024-12-01,Waffly,Choco-berry,Large,72,39,2808
+2024-12-01,Waffly,Choco-caramel,Large,17,39,663
+2024-12-01,Waffly,Berry-caramel,Large,2,39,78
+2024-12-01,WaterStation,Gallon Round,New,68,150,10200
+2024-12-01,WaterStation,Gallon Round,Refill,27,20,540
+2024-12-01,WaterStation,Gallon Slim,New,73,150,10950
+2024-12-01,WaterStation,Gallon Slim,Refill,29,20,580
+2024-12-01,WaterStation,350ml,New,94,150,14100
+2024-12-01,WaterStation,500ml,New,48,150,7200
+2024-12-02,Kkopi,Coffee,Solo,95,39,3705
+2024-12-02,Kkopi,Milktea,Jumbo,14,49,686
+2024-12-02,Kkopi,Fruit Tea,Jumbo,45,49,2205
+2024-12-02,Waffly,Chocolate,Regular,48,29,1392
+2024-12-02,Waffly,Strawberry,Regular,24,29,696
+2024-12-02,Waffly,Caramel,Regular,4,29,116
+2024-12-02,Waffly,Choco-berry,Regular,62,29,1798
+2024-12-02,Waffly,Choco-caramel,Regular,87,29,2523
+2024-12-02,Waffly,Berry-caramel,Regular,3,29,87
+2024-12-02,Waffly,Chocolate,Large,85,39,3315
+2024-12-02,Waffly,Strawberry,Large,73,39,2847
+2024-12-02,Waffly,Caramel,Large,96,39,3744
+2024-12-02,Waffly,Choco-berry,Large,14,39,546
+2024-12-02,Waffly,Choco-caramel,Large,96,39,3744
+2024-12-02,Waffly,Berry-caramel,Large,21,39,819
+2024-12-02,WaterStation,Gallon Round,New,94,150,14100
+2024-12-02,WaterStation,Gallon Round,Refill,90,20,1800
+2024-12-02,WaterStation,Gallon Slim,New,11,150,1650
+2024-12-02,WaterStation,Gallon Slim,Refill,49,20,980
+2024-12-02,WaterStation,350ml,New,30,150,4500
+2024-12-02,WaterStation,500ml,New,27,150,4050
+2024-12-03,Kkopi,Coffee,Solo,72,39,2808
+2024-12-03,Kkopi,Milktea,Jumbo,5,49,245
+2024-12-03,Kkopi,Fruit Tea,Jumbo,27,49,1323
+2024-12-03,Waffly,Chocolate,Regular,8,29,232
+2024-12-03,Waffly,Strawberry,Regular,91,29,2639
+2024-12-03,Waffly,Caramel,Regular,50,29,1450
+2024-12-03,Waffly,Choco-berry,Regular,75,29,2175
+2024-12-03,Waffly,Choco-caramel,Regular,36,29,1044
+2024-12-03,Waffly,Berry-caramel,Regular,21,29,609
+2024-12-03,Waffly,Chocolate,Large,74,39,2886
+2024-12-03,Waffly,Strawberry,Large,37,39,1443
+2024-12-03,Waffly,Caramel,Large,17,39,663
+2024-12-03,Waffly,Choco-berry,Large,61,39,2379
+2024-12-03,Waffly,Choco-caramel,Large,52,39,2028
+2024-12-03,Waffly,Berry-caramel,Large,80,39,3120
+2024-12-03,WaterStation,Gallon Round,New,64,150,9600
+2024-12-03,WaterStation,Gallon Round,Refill,50,20,1000
+2024-12-03,WaterStation,Gallon Slim,New,13,150,1950
+2024-12-03,WaterStation,Gallon Slim,Refill,100,20,2000
+2024-12-03,WaterStation,350ml,New,89,150,13350
+2024-12-03,WaterStation,500ml,New,78,150,11700
+2024-12-04,Kkopi,Coffee,Solo,41,39,1599
+2024-12-04,Kkopi,Milktea,Jumbo,82,49,4018
+2024-12-04,Kkopi,Fruit Tea,Jumbo,81,49,3969
+2024-12-04,Waffly,Chocolate,Regular,73,29,2117
+2024-12-04,Waffly,Strawberry,Regular,35,29,1015
+2024-12-04,Waffly,Caramel,Regular,82,29,2378
+2024-12-04,Waffly,Choco-berry,Regular,37,29,1073
+2024-12-04,Waffly,Choco-caramel,Regular,25,29,725
+2024-12-04,Waffly,Berry-caramel,Regular,91,29,2639
+2024-12-04,Waffly,Chocolate,Large,11,39,429
+2024-12-04,Waffly,Strawberry,Large,96,39,3744
+2024-12-04,Waffly,Caramel,Large,22,39,858
+2024-12-04,Waffly,Choco-berry,Large,60,39,2340
+2024-12-04,Waffly,Choco-caramel,Large,57,39,2223
+2024-12-04,Waffly,Berry-caramel,Large,36,39,1404
+2024-12-04,WaterStation,Gallon Round,New,81,150,12150
+2024-12-04,WaterStation,Gallon Round,Refill,44,20,880
+2024-12-04,WaterStation,Gallon Slim,New,35,150,5250
+2024-12-04,WaterStation,Gallon Slim,Refill,32,20,640
+2024-12-04,WaterStation,350ml,New,15,150,2250
+2024-12-04,WaterStation,500ml,New,86,150,12900
+2024-12-05,Kkopi,Coffee,Solo,30,39,1170
+2024-12-05,Kkopi,Milktea,Jumbo,23,49,1127
+2024-12-05,Kkopi,Fruit Tea,Jumbo,15,49,735
+2024-12-05,Waffly,Chocolate,Regular,64,29,1856
+2024-12-05,Waffly,Strawberry,Regular,22,29,638
+2024-12-05,Waffly,Caramel,Regular,59,29,1711
+2024-12-05,Waffly,Choco-berry,Regular,43,29,1247
+2024-12-05,Waffly,Choco-caramel,Regular,47,29,1363
+2024-12-05,Waffly,Berry-caramel,Regular,82,29,2378
+2024-12-05,Waffly,Chocolate,Large,90,39,3510
+2024-12-05,Waffly,Strawberry,Large,14,39,546
+2024-12-05,Waffly,Caramel,Large,89,39,3471
+2024-12-05,Waffly,Choco-berry,Large,88,39,3432
+2024-12-05,Waffly,Choco-caramel,Large,56,39,2184
+2024-12-05,Waffly,Berry-caramel,Large,89,39,3471
+2024-12-05,WaterStation,Gallon Round,New,85,150,12750
+2024-12-05,WaterStation,Gallon Round,Refill,28,20,560
+2024-12-05,WaterStation,Gallon Slim,New,35,150,5250
+2024-12-05,WaterStation,Gallon Slim,Refill,41,20,820
+2024-12-05,WaterStation,350ml,New,74,150,11100
+2024-12-05,WaterStation,500ml,New,27,150,4050
+2024-12-06,Kkopi,Coffee,Solo,54,39,2106
+2024-12-06,Kkopi,Milktea,Jumbo,52,49,2548
+2024-12-06,Kkopi,Fruit Tea,Jumbo,60,49,2940
+2024-12-06,Waffly,Chocolate,Regular,48,29,1392
+2024-12-06,Waffly,Strawberry,Regular,43,29,1247
+2024-12-06,Waffly,Caramel,Regular,75,29,2175
+2024-12-06,Waffly,Choco-berry,Regular,37,29,1073
+2024-12-06,Waffly,Choco-caramel,Regular,7,29,203
+2024-12-06,Waffly,Berry-caramel,Regular,100,29,2900
+2024-12-06,Waffly,Chocolate,Large,52,39,2028
+2024-12-06,Waffly,Strawberry,Large,37,39,1443
+2024-12-06,Waffly,Caramel,Large,69,39,2691
+2024-12-06,Waffly,Choco-berry,Large,52,39,2028
+2024-12-06,Waffly,Choco-caramel,Large,81,39,3159
+2024-12-06,Waffly,Berry-caramel,Large,4,39,156
+2024-12-06,WaterStation,Gallon Round,New,69,150,10350
+2024-12-06,WaterStation,Gallon Round,Refill,87,20,1740
+2024-12-06,WaterStation,Gallon Slim,New,12,150,1800
+2024-12-06,WaterStation,Gallon Slim,Refill,28,20,560
+2024-12-06,WaterStation,350ml,New,28,150,4200
+2024-12-06,WaterStation,500ml,New,79,150,11850
+2024-12-07,Kkopi,Coffee,Solo,79,39,3081
+2024-12-07,Kkopi,Milktea,Jumbo,83,49,4067
+2024-12-07,Kkopi,Fruit Tea,Jumbo,28,49,1372
+2024-12-07,Waffly,Chocolate,Regular,49,29,1421
+2024-12-07,Waffly,Strawberry,Regular,39,29,1131
+2024-12-07,Waffly,Caramel,Regular,47,29,1363
+2024-12-07,Waffly,Choco-berry,Regular,16,29,464
+2024-12-07,Waffly,Choco-caramel,Regular,15,29,435
+2024-12-07,Waffly,Berry-caramel,Regular,95,29,2755
+2024-12-07,Waffly,Chocolate,Large,18,39,702
+2024-12-07,Waffly,Strawberry,Large,73,39,2847
+2024-12-07,Waffly,Caramel,Large,18,39,702
+2024-12-07,Waffly,Choco-berry,Large,14,39,546
+2024-12-07,Waffly,Choco-caramel,Large,18,39,702
+2024-12-07,Waffly,Berry-caramel,Large,99,39,3861
+2024-12-07,WaterStation,Gallon Round,New,21,150,3150
+2024-12-07,WaterStation,Gallon Round,Refill,48,20,960
+2024-12-07,WaterStation,Gallon Slim,New,92,150,13800
+2024-12-07,WaterStation,Gallon Slim,Refill,38,20,760
+2024-12-07,WaterStation,350ml,New,23,150,3450
+2024-12-07,WaterStation,500ml,New,62,150,9300
+2024-12-08,Kkopi,Coffee,Solo,21,39,819
+2024-12-08,Kkopi,Milktea,Jumbo,32,49,1568
+2024-12-08,Kkopi,Fruit Tea,Jumbo,92,49,4508
+2024-12-08,Waffly,Chocolate,Regular,16,29,464
+2024-12-08,Waffly,Strawberry,Regular,26,29,754
+2024-12-08,Waffly,Caramel,Regular,65,29,1885
+2024-12-08,Waffly,Choco-berry,Regular,70,29,2030
+2024-12-08,Waffly,Choco-caramel,Regular,37,29,1073
+2024-12-08,Waffly,Berry-caramel,Regular,55,29,1595
+2024-12-08,Waffly,Chocolate,Large,24,39,936
+2024-12-08,Waffly,Strawberry,Large,5,39,195
+2024-12-08,Waffly,Caramel,Large,38,39,1482
+2024-12-08,Waffly,Choco-berry,Large,62,39,2418
+2024-12-08,Waffly,Choco-caramel,Large,95,39,3705
+2024-12-08,Waffly,Berry-caramel,Large,62,39,2418
+2024-12-08,WaterStation,Gallon Round,New,8,150,1200
+2024-12-08,WaterStation,Gallon Round,Refill,65,20,1300
+2024-12-08,WaterStation,Gallon Slim,New,18,150,2700
+2024-12-08,WaterStation,Gallon Slim,Refill,58,20,1160
+2024-12-08,WaterStation,350ml,New,22,150,3300
+2024-12-08,WaterStation,500ml,New,80,150,12000
+2024-12-09,Kkopi,Coffee,Solo,18,39,702
+2024-12-09,Kkopi,Milktea,Jumbo,88,49,4312
+2024-12-09,Kkopi,Fruit Tea,Jumbo,56,49,2744
+2024-12-09,Waffly,Chocolate,Regular,75,29,2175
+2024-12-09,Waffly,Strawberry,Regular,82,29,2378
+2024-12-09,Waffly,Caramel,Regular,76,29,2204
+2024-12-09,Waffly,Choco-berry,Regular,14,29,406
+2024-12-09,Waffly,Choco-caramel,Regular,85,29,2465
+2024-12-09,Waffly,Berry-caramel,Regular,67,29,1943
+2024-12-09,Waffly,Chocolate,Large,80,39,3120
+2024-12-09,Waffly,Strawberry,Large,78,39,3042
+2024-12-09,Waffly,Caramel,Large,18,39,702
+2024-12-09,Waffly,Choco-berry,Large,36,39,1404
+2024-12-09,Waffly,Choco-caramel,Large,31,39,1209
+2024-12-09,Waffly,Berry-caramel,Large,92,39,3588
+2024-12-09,WaterStation,Gallon Round,New,28,150,4200
+2024-12-09,WaterStation,Gallon Round,Refill,42,20,840
+2024-12-09,WaterStation,Gallon Slim,New,34,150,5100
+2024-12-09,WaterStation,Gallon Slim,Refill,51,20,1020
+2024-12-09,WaterStation,350ml,New,83,150,12450
+2024-12-09,WaterStation,500ml,New,89,150,13350
+2024-12-10,Kkopi,Coffee,Solo,26,39,1014
+2024-12-10,Kkopi,Milktea,Jumbo,38,49,1862
+2024-12-10,Kkopi,Fruit Tea,Jumbo,73,49,3577
+2024-12-10,Waffly,Chocolate,Regular,76,29,2204
+2024-12-10,Waffly,Strawberry,Regular,92,29,2668
+2024-12-10,Waffly,Caramel,Regular,92,29,2668
+2024-12-10,Waffly,Choco-berry,Regular,65,29,1885
+2024-12-10,Waffly,Choco-caramel,Regular,69,29,2001
+2024-12-10,Waffly,Berry-caramel,Regular,23,29,667
+2024-12-10,Waffly,Chocolate,Large,52,39,2028
+2024-12-10,Waffly,Strawberry,Large,58,39,2262
+2024-12-10,Waffly,Caramel,Large,16,39,624
+2024-12-10,Waffly,Choco-berry,Large,30,39,1170
+2024-12-10,Waffly,Choco-caramel,Large,100,39,3900
+2024-12-10,Waffly,Berry-caramel,Large,61,39,2379
+2024-12-10,WaterStation,Gallon Round,New,2,150,300
+2024-12-10,WaterStation,Gallon Round,Refill,72,20,1440
+2024-12-10,WaterStation,Gallon Slim,New,30,150,4500
+2024-12-10,WaterStation,Gallon Slim,Refill,90,20,1800
+2024-12-10,WaterStation,350ml,New,63,150,9450
+2024-12-10,WaterStation,500ml,New,5,150,750
+2024-12-11,Kkopi,Coffee,Solo,96,39,3744
+2024-12-11,Kkopi,Milktea,Jumbo,90,49,4410
+2024-12-11,Kkopi,Fruit Tea,Jumbo,48,49,2352
+2024-12-11,Waffly,Chocolate,Regular,92,29,2668
+2024-12-11,Waffly,Strawberry,Regular,27,29,783
+2024-12-11,Waffly,Caramel,Regular,54,29,1566
+2024-12-11,Waffly,Choco-berry,Regular,97,29,2813
+2024-12-11,Waffly,Choco-caramel,Regular,6,29,174
+2024-12-11,Waffly,Berry-caramel,Regular,52,29,1508
+2024-12-11,Waffly,Chocolate,Large,68,39,2652
+2024-12-11,Waffly,Strawberry,Large,14,39,546
+2024-12-11,Waffly,Caramel,Large,46,39,1794
+2024-12-11,Waffly,Choco-berry,Large,89,39,3471
+2024-12-11,Waffly,Choco-caramel,Large,64,39,2496
+2024-12-11,Waffly,Berry-caramel,Large,56,39,2184
+2024-12-11,WaterStation,Gallon Round,New,55,150,8250
+2024-12-11,WaterStation,Gallon Round,Refill,79,20,1580
+2024-12-11,WaterStation,Gallon Slim,New,6,150,900
+2024-12-11,WaterStation,Gallon Slim,Refill,94,20,1880
+2024-12-11,WaterStation,350ml,New,63,150,9450
+2024-12-11,WaterStation,500ml,New,38,150,5700
+2024-12-12,Kkopi,Coffee,Solo,100,39,3900
+2024-12-12,Kkopi,Milktea,Jumbo,91,49,4459
+2024-12-12,Kkopi,Fruit Tea,Jumbo,79,49,3871
+2024-12-12,Waffly,Chocolate,Regular,60,29,1740
+2024-12-12,Waffly,Strawberry,Regular,9,29,261
+2024-12-12,Waffly,Caramel,Regular,89,29,2581
+2024-12-12,Waffly,Choco-berry,Regular,22,29,638
+2024-12-12,Waffly,Choco-caramel,Regular,56,29,1624
+2024-12-12,Waffly,Berry-caramel,Regular,94,29,2726
+2024-12-12,Waffly,Chocolate,Large,80,39,3120
+2024-12-12,Waffly,Strawberry,Large,27,39,1053
+2024-12-12,Waffly,Caramel,Large,95,39,3705
+2024-12-12,Waffly,Choco-berry,Large,2,39,78
+2024-12-12,Waffly,Choco-caramel,Large,51,39,1989
+2024-12-12,Waffly,Berry-caramel,Large,10,39,390
+2024-12-12,WaterStation,Gallon Round,New,56,150,8400
+2024-12-12,WaterStation,Gallon Round,Refill,58,20,1160
+2024-12-12,WaterStation,Gallon Slim,New,80,150,12000
+2024-12-12,WaterStation,Gallon Slim,Refill,11,20,220
+2024-12-12,WaterStation,350ml,New,38,150,5700
+2024-12-12,WaterStation,500ml,New,22,150,3300
+2024-12-13,Kkopi,Coffee,Solo,83,39,3237
+2024-12-13,Kkopi,Milktea,Jumbo,74,49,3626
+2024-12-13,Kkopi,Fruit Tea,Jumbo,97,49,4753
+2024-12-13,Waffly,Chocolate,Regular,2,29,58
+2024-12-13,Waffly,Strawberry,Regular,97,29,2813
+2024-12-13,Waffly,Caramel,Regular,76,29,2204
+2024-12-13,Waffly,Choco-berry,Regular,78,29,2262
+2024-12-13,Waffly,Choco-caramel,Regular,14,29,406
+2024-12-13,Waffly,Berry-caramel,Regular,29,29,841
+2024-12-13,Waffly,Chocolate,Large,38,39,1482
+2024-12-13,Waffly,Strawberry,Large,36,39,1404
+2024-12-13,Waffly,Caramel,Large,51,39,1989
+2024-12-13,Waffly,Choco-berry,Large,28,39,1092
+2024-12-13,Waffly,Choco-caramel,Large,32,39,1248
+2024-12-13,Waffly,Berry-caramel,Large,34,39,1326
+2024-12-13,WaterStation,Gallon Round,New,63,150,9450
+2024-12-13,WaterStation,Gallon Round,Refill,61,20,1220
+2024-12-13,WaterStation,Gallon Slim,New,4,150,600
+2024-12-13,WaterStation,Gallon Slim,Refill,73,20,1460
+2024-12-13,WaterStation,350ml,New,75,150,11250
+2024-12-13,WaterStation,500ml,New,86,150,12900
+2024-12-14,Kkopi,Coffee,Solo,56,39,2184
+2024-12-14,Kkopi,Milktea,Jumbo,82,49,4018
+2024-12-14,Kkopi,Fruit Tea,Jumbo,76,49,3724
+2024-12-14,Waffly,Chocolate,Regular,25,29,725
+2024-12-14,Waffly,Strawberry,Regular,73,29,2117
+2024-12-14,Waffly,Caramel,Regular,40,29,1160
+2024-12-14,Waffly,Choco-berry,Regular,93,29,2697
+2024-12-14,Waffly,Choco-caramel,Regular,70,29,2030
+2024-12-14,Waffly,Berry-caramel,Regular,21,29,609
+2024-12-14,Waffly,Chocolate,Large,61,39,2379
+2024-12-14,Waffly,Strawberry,Large,86,39,3354
+2024-12-14,Waffly,Caramel,Large,70,39,2730
+2024-12-14,Waffly,Choco-berry,Large,84,39,3276
+2024-12-14,Waffly,Choco-caramel,Large,31,39,1209
+2024-12-14,Waffly,Berry-caramel,Large,71,39,2769
+2024-12-14,WaterStation,Gallon Round,New,35,150,5250
+2024-12-14,WaterStation,Gallon Round,Refill,88,20,1760
+2024-12-14,WaterStation,Gallon Slim,New,42,150,6300
+2024-12-14,WaterStation,Gallon Slim,Refill,57,20,1140
+2024-12-14,WaterStation,350ml,New,49,150,7350
+2024-12-14,WaterStation,500ml,New,13,150,1950
+2024-12-15,Kkopi,Coffee,Solo,81,39,3159
+2024-12-15,Kkopi,Milktea,Jumbo,5,49,245
+2024-12-15,Kkopi,Fruit Tea,Jumbo,51,49,2499
+2024-12-15,Waffly,Chocolate,Regular,76,29,2204
+2024-12-15,Waffly,Strawberry,Regular,8,29,232
+2024-12-15,Waffly,Caramel,Regular,74,29,2146
+2024-12-15,Waffly,Choco-berry,Regular,57,29,1653
+2024-12-15,Waffly,Choco-caramel,Regular,41,29,1189
+2024-12-15,Waffly,Berry-caramel,Regular,97,29,2813
+2024-12-15,Waffly,Chocolate,Large,30,39,1170
+2024-12-15,Waffly,Strawberry,Large,46,39,1794
+2024-12-15,Waffly,Caramel,Large,60,39,2340
+2024-12-15,Waffly,Choco-berry,Large,12,39,468
+2024-12-15,Waffly,Choco-caramel,Large,40,39,1560
+2024-12-15,Waffly,Berry-caramel,Large,21,39,819
+2024-12-15,WaterStation,Gallon Round,New,68,150,10200
+2024-12-15,WaterStation,Gallon Round,Refill,6,20,120
+2024-12-15,WaterStation,Gallon Slim,New,40,150,6000
+2024-12-15,WaterStation,Gallon Slim,Refill,9,20,180
+2024-12-15,WaterStation,350ml,New,76,150,11400
+2024-12-15,WaterStation,500ml,New,94,150,14100
+2024-12-16,Kkopi,Coffee,Solo,56,39,2184
+2024-12-16,Kkopi,Milktea,Jumbo,57,49,2793
+2024-12-16,Kkopi,Fruit Tea,Jumbo,6,49,294
+2024-12-16,Waffly,Chocolate,Regular,76,29,2204
+2024-12-16,Waffly,Strawberry,Regular,7,29,203
+2024-12-16,Waffly,Caramel,Regular,86,29,2494
+2024-12-16,Waffly,Choco-berry,Regular,5,29,145
+2024-12-16,Waffly,Choco-caramel,Regular,92,29,2668
+2024-12-16,Waffly,Berry-caramel,Regular,76,29,2204
+2024-12-16,Waffly,Chocolate,Large,85,39,3315
+2024-12-16,Waffly,Strawberry,Large,52,39,2028
+2024-12-16,Waffly,Caramel,Large,96,39,3744
+2024-12-16,Waffly,Choco-berry,Large,31,39,1209
+2024-12-16,Waffly,Choco-caramel,Large,69,39,2691
+2024-12-16,Waffly,Berry-caramel,Large,61,39,2379
+2024-12-16,WaterStation,Gallon Round,New,19,150,2850
+2024-12-16,WaterStation,Gallon Round,Refill,69,20,1380
+2024-12-16,WaterStation,Gallon Slim,New,47,150,7050
+2024-12-16,WaterStation,Gallon Slim,Refill,10,20,200
+2024-12-16,WaterStation,350ml,New,37,150,5550
+2024-12-16,WaterStation,500ml,New,89,150,13350
+2024-12-17,Kkopi,Coffee,Solo,82,39,3198
+2024-12-17,Kkopi,Milktea,Jumbo,74,49,3626
+2024-12-17,Kkopi,Fruit Tea,Jumbo,63,49,3087
+2024-12-17,Waffly,Chocolate,Regular,57,29,1653
+2024-12-17,Waffly,Strawberry,Regular,92,29,2668
+2024-12-17,Waffly,Caramel,Regular,25,29,725
+2024-12-17,Waffly,Choco-berry,Regular,72,29,2088
+2024-12-17,Waffly,Choco-caramel,Regular,47,29,1363
+2024-12-17,Waffly,Berry-caramel,Regular,40,29,1160
+2024-12-17,Waffly,Chocolate,Large,31,39,1209
+2024-12-17,Waffly,Strawberry,Large,14,39,546
+2024-12-17,Waffly,Caramel,Large,52,39,2028
+2024-12-17,Waffly,Choco-berry,Large,22,39,858
+2024-12-17,Waffly,Choco-caramel,Large,15,39,585
+2024-12-17,Waffly,Berry-caramel,Large,71,39,2769
+2024-12-17,WaterStation,Gallon Round,New,66,150,9900
+2024-12-17,WaterStation,Gallon Round,Refill,51,20,1020
+2024-12-17,WaterStation,Gallon Slim,New,92,150,13800
+2024-12-17,WaterStation,Gallon Slim,Refill,73,20,1460
+2024-12-17,WaterStation,350ml,New,28,150,4200
+2024-12-17,WaterStation,500ml,New,5,150,750
+2024-12-18,Kkopi,Coffee,Solo,38,39,1482
+2024-12-18,Kkopi,Milktea,Jumbo,33,49,1617
+2024-12-18,Kkopi,Fruit Tea,Jumbo,64,49,3136
+2024-12-18,Waffly,Chocolate,Regular,5,29,145
+2024-12-18,Waffly,Strawberry,Regular,63,29,1827
+2024-12-18,Waffly,Caramel,Regular,16,29,464
+2024-12-18,Waffly,Choco-berry,Regular,22,29,638
+2024-12-18,Waffly,Choco-caramel,Regular,41,29,1189
+2024-12-18,Waffly,Berry-caramel,Regular,74,29,2146
+2024-12-18,Waffly,Chocolate,Large,5,39,195
+2024-12-18,Waffly,Strawberry,Large,54,39,2106
+2024-12-18,Waffly,Caramel,Large,26,39,1014
+2024-12-18,Waffly,Choco-berry,Large,77,39,3003
+2024-12-18,Waffly,Choco-caramel,Large,13,39,507
+2024-12-18,Waffly,Berry-caramel,Large,99,39,3861
+2024-12-18,WaterStation,Gallon Round,New,93,150,13950
+2024-12-18,WaterStation,Gallon Round,Refill,26,20,520
+2024-12-18,WaterStation,Gallon Slim,New,70,150,10500
+2024-12-18,WaterStation,Gallon Slim,Refill,5,20,100
+2024-12-18,WaterStation,350ml,New,23,150,3450
+2024-12-18,WaterStation,500ml,New,22,150,3300
+2024-12-19,Kkopi,Coffee,Solo,30,39,1170
+2024-12-19,Kkopi,Milktea,Jumbo,48,49,2352
+2024-12-19,Kkopi,Fruit Tea,Jumbo,10,49,490
+2024-12-19,Waffly,Chocolate,Regular,58,29,1682
+2024-12-19,Waffly,Strawberry,Regular,2,29,58
+2024-12-19,Waffly,Caramel,Regular,41,29,1189
+2024-12-19,Waffly,Choco-berry,Regular,90,29,2610
+2024-12-19,Waffly,Choco-caramel,Regular,10,29,290
+2024-12-19,Waffly,Berry-caramel,Regular,8,29,232
+2024-12-19,Waffly,Chocolate,Large,38,39,1482
+2024-12-19,Waffly,Strawberry,Large,67,39,2613
+2024-12-19,Waffly,Caramel,Large,95,39,3705
+2024-12-19,Waffly,Choco-berry,Large,11,39,429
+2024-12-19,Waffly,Choco-caramel,Large,25,39,975
+2024-12-19,Waffly,Berry-caramel,Large,97,39,3783
+2024-12-19,WaterStation,Gallon Round,New,87,150,13050
+2024-12-19,WaterStation,Gallon Round,Refill,71,20,1420
+2024-12-19,WaterStation,Gallon Slim,New,6,150,900
+2024-12-19,WaterStation,Gallon Slim,Refill,65,20,1300
+2024-12-19,WaterStation,350ml,New,19,150,2850
+2024-12-19,WaterStation,500ml,New,20,150,3000
+2024-12-20,Kkopi,Coffee,Solo,43,39,1677
+2024-12-20,Kkopi,Milktea,Jumbo,85,49,4165
+2024-12-20,Kkopi,Fruit Tea,Jumbo,46,49,2254
+2024-12-20,Waffly,Chocolate,Regular,37,29,1073
+2024-12-20,Waffly,Strawberry,Regular,96,29,2784
+2024-12-20,Waffly,Caramel,Regular,41,29,1189
+2024-12-20,Waffly,Choco-berry,Regular,55,29,1595
+2024-12-20,Waffly,Choco-caramel,Regular,15,29,435
+2024-12-20,Waffly,Berry-caramel,Regular,54,29,1566
+2024-12-20,Waffly,Chocolate,Large,10,39,390
+2024-12-20,Waffly,Strawberry,Large,88,39,3432
+2024-12-20,Waffly,Caramel,Large,58,39,2262
+2024-12-20,Waffly,Choco-berry,Large,7,39,273
+2024-12-20,Waffly,Choco-caramel,Large,56,39,2184
+2024-12-20,Waffly,Berry-caramel,Large,23,39,897
+2024-12-20,WaterStation,Gallon Round,New,13,150,1950
+2024-12-20,WaterStation,Gallon Round,Refill,16,20,320
+2024-12-20,WaterStation,Gallon Slim,New,37,150,5550
+2024-12-20,WaterStation,Gallon Slim,Refill,52,20,1040
+2024-12-20,WaterStation,350ml,New,100,150,15000
+2024-12-20,WaterStation,500ml,New,41,150,6150
+2024-12-21,Kkopi,Coffee,Solo,33,39,1287
+2024-12-21,Kkopi,Milktea,Jumbo,17,49,833
+2024-12-21,Kkopi,Fruit Tea,Jumbo,48,49,2352
+2024-12-21,Waffly,Chocolate,Regular,21,29,609
+2024-12-21,Waffly,Strawberry,Regular,80,29,2320
+2024-12-21,Waffly,Caramel,Regular,90,29,2610
+2024-12-21,Waffly,Choco-berry,Regular,74,29,2146
+2024-12-21,Waffly,Choco-caramel,Regular,16,29,464
+2024-12-21,Waffly,Berry-caramel,Regular,46,29,1334
+2024-12-21,Waffly,Chocolate,Large,76,39,2964
+2024-12-21,Waffly,Strawberry,Large,39,39,1521
+2024-12-21,Waffly,Caramel,Large,67,39,2613
+2024-12-21,Waffly,Choco-berry,Large,23,39,897
+2024-12-21,Waffly,Choco-caramel,Large,68,39,2652
+2024-12-21,Waffly,Berry-caramel,Large,97,39,3783
+2024-12-21,WaterStation,Gallon Round,New,93,150,13950
+2024-12-21,WaterStation,Gallon Round,Refill,90,20,1800
+2024-12-21,WaterStation,Gallon Slim,New,78,150,11700
+2024-12-21,WaterStation,Gallon Slim,Refill,48,20,960
+2024-12-21,WaterStation,350ml,New,57,150,8550
+2024-12-21,WaterStation,500ml,New,25,150,3750
+2024-12-22,Kkopi,Coffee,Solo,70,39,2730
+2024-12-22,Kkopi,Milktea,Jumbo,23,49,1127
+2024-12-22,Kkopi,Fruit Tea,Jumbo,63,49,3087
+2024-12-22,Waffly,Chocolate,Regular,17,29,493
+2024-12-22,Waffly,Strawberry,Regular,76,29,2204
+2024-12-22,Waffly,Caramel,Regular,40,29,1160
+2024-12-22,Waffly,Choco-berry,Regular,64,29,1856
+2024-12-22,Waffly,Choco-caramel,Regular,89,29,2581
+2024-12-22,Waffly,Berry-caramel,Regular,84,29,2436
+2024-12-22,Waffly,Chocolate,Large,93,39,3627
+2024-12-22,Waffly,Strawberry,Large,47,39,1833
+2024-12-22,Waffly,Caramel,Large,26,39,1014
+2024-12-22,Waffly,Choco-berry,Large,86,39,3354
+2024-12-22,Waffly,Choco-caramel,Large,78,39,3042
+2024-12-22,Waffly,Berry-caramel,Large,36,39,1404
+2024-12-22,WaterStation,Gallon Round,New,74,150,11100
+2024-12-22,WaterStation,Gallon Round,Refill,25,20,500
+2024-12-22,WaterStation,Gallon Slim,New,44,150,6600
+2024-12-22,WaterStation,Gallon Slim,Refill,6,20,120
+2024-12-22,WaterStation,350ml,New,33,150,4950
+2024-12-22,WaterStation,500ml,New,81,150,12150
+2024-12-23,Kkopi,Coffee,Solo,72,39,2808
+2024-12-23,Kkopi,Milktea,Jumbo,95,49,4655
+2024-12-23,Kkopi,Fruit Tea,Jumbo,100,49,4900
+2024-12-23,Waffly,Chocolate,Regular,36,29,1044
+2024-12-23,Waffly,Strawberry,Regular,28,29,812
+2024-12-23,Waffly,Caramel,Regular,27,29,783
+2024-12-23,Waffly,Choco-berry,Regular,11,29,319
+2024-12-23,Waffly,Choco-caramel,Regular,76,29,2204
+2024-12-23,Waffly,Berry-caramel,Regular,77,29,2233
+2024-12-23,Waffly,Chocolate,Large,30,39,1170
+2024-12-23,Waffly,Strawberry,Large,71,39,2769
+2024-12-23,Waffly,Caramel,Large,11,39,429
+2024-12-23,Waffly,Choco-berry,Large,88,39,3432
+2024-12-23,Waffly,Choco-caramel,Large,70,39,2730
+2024-12-23,Waffly,Berry-caramel,Large,10,39,390
+2024-12-23,WaterStation,Gallon Round,New,58,150,8700
+2024-12-23,WaterStation,Gallon Round,Refill,20,20,400
+2024-12-23,WaterStation,Gallon Slim,New,23,150,3450
+2024-12-23,WaterStation,Gallon Slim,Refill,5,20,100
+2024-12-23,WaterStation,350ml,New,7,150,1050
+2024-12-23,WaterStation,500ml,New,77,150,11550
+2024-12-24,Kkopi,Coffee,Solo,75,39,2925
+2024-12-24,Kkopi,Milktea,Jumbo,71,49,3479
+2024-12-24,Kkopi,Fruit Tea,Jumbo,59,49,2891
+2024-12-24,Waffly,Chocolate,Regular,60,29,1740
+2024-12-24,Waffly,Strawberry,Regular,48,29,1392
+2024-12-24,Waffly,Caramel,Regular,35,29,1015
+2024-12-24,Waffly,Choco-berry,Regular,42,29,1218
+2024-12-24,Waffly,Choco-caramel,Regular,89,29,2581
+2024-12-24,Waffly,Berry-caramel,Regular,76,29,2204
+2024-12-24,Waffly,Chocolate,Large,26,39,1014
+2024-12-24,Waffly,Strawberry,Large,27,39,1053
+2024-12-24,Waffly,Caramel,Large,55,39,2145
+2024-12-24,Waffly,Choco-berry,Large,11,39,429
+2024-12-24,Waffly,Choco-caramel,Large,66,39,2574
+2024-12-24,Waffly,Berry-caramel,Large,60,39,2340
+2024-12-24,WaterStation,Gallon Round,New,66,150,9900
+2024-12-24,WaterStation,Gallon Round,Refill,19,20,380
+2024-12-24,WaterStation,Gallon Slim,New,95,150,14250
+2024-12-24,WaterStation,Gallon Slim,Refill,89,20,1780
+2024-12-24,WaterStation,350ml,New,31,150,4650
+2024-12-24,WaterStation,500ml,New,16,150,2400
+2024-12-25,Kkopi,Coffee,Solo,96,39,3744
+2024-12-25,Kkopi,Milktea,Jumbo,25,49,1225
+2024-12-25,Kkopi,Fruit Tea,Jumbo,7,49,343
+2024-12-25,Waffly,Chocolate,Regular,34,29,986
+2024-12-25,Waffly,Strawberry,Regular,89,29,2581
+2024-12-25,Waffly,Caramel,Regular,36,29,1044
+2024-12-25,Waffly,Choco-berry,Regular,18,29,522
+2024-12-25,Waffly,Choco-caramel,Regular,45,29,1305
+2024-12-25,Waffly,Berry-caramel,Regular,29,29,841
+2024-12-25,Waffly,Chocolate,Large,47,39,1833
+2024-12-25,Waffly,Strawberry,Large,89,39,3471
+2024-12-25,Waffly,Caramel,Large,21,39,819
+2024-12-25,Waffly,Choco-berry,Large,15,39,585
+2024-12-25,Waffly,Choco-caramel,Large,10,39,390
+2024-12-25,Waffly,Berry-caramel,Large,20,39,780
+2024-12-25,WaterStation,Gallon Round,New,90,150,13500
+2024-12-25,WaterStation,Gallon Round,Refill,46,20,920
+2024-12-25,WaterStation,Gallon Slim,New,80,150,12000
+2024-12-25,WaterStation,Gallon Slim,Refill,23,20,460
+2024-12-25,WaterStation,350ml,New,100,150,15000
+2024-12-25,WaterStation,500ml,New,63,150,9450
+2024-12-26,Kkopi,Coffee,Solo,61,39,2379
+2024-12-26,Kkopi,Milktea,Jumbo,97,49,4753
+2024-12-26,Kkopi,Fruit Tea,Jumbo,11,49,539
+2024-12-26,Waffly,Chocolate,Regular,50,29,1450
+2024-12-26,Waffly,Strawberry,Regular,40,29,1160
+2024-12-26,Waffly,Caramel,Regular,88,29,2552
+2024-12-26,Waffly,Choco-berry,Regular,2,29,58
+2024-12-26,Waffly,Choco-caramel,Regular,13,29,377
+2024-12-26,Waffly,Berry-caramel,Regular,77,29,2233
+2024-12-26,Waffly,Chocolate,Large,71,39,2769
+2024-12-26,Waffly,Strawberry,Large,59,39,2301
+2024-12-26,Waffly,Caramel,Large,75,39,2925
+2024-12-26,Waffly,Choco-berry,Large,2,39,78
+2024-12-26,Waffly,Choco-caramel,Large,16,39,624
+2024-12-26,Waffly,Berry-caramel,Large,89,39,3471
+2024-12-26,WaterStation,Gallon Round,New,3,150,450
+2024-12-26,WaterStation,Gallon Round,Refill,44,20,880
+2024-12-26,WaterStation,Gallon Slim,New,95,150,14250
+2024-12-26,WaterStation,Gallon Slim,Refill,31,20,620
+2024-12-26,WaterStation,350ml,New,14,150,2100
+2024-12-26,WaterStation,500ml,New,93,150,13950
+2024-12-27,Kkopi,Coffee,Solo,97,39,3783
+2024-12-27,Kkopi,Milktea,Jumbo,24,49,1176
+2024-12-27,Kkopi,Fruit Tea,Jumbo,91,49,4459
+2024-12-27,Waffly,Chocolate,Regular,91,29,2639
+2024-12-27,Waffly,Strawberry,Regular,32,29,928
+2024-12-27,Waffly,Caramel,Regular,44,29,1276
+2024-12-27,Waffly,Choco-berry,Regular,93,29,2697
+2024-12-27,Waffly,Choco-caramel,Regular,11,29,319
+2024-12-27,Waffly,Berry-caramel,Regular,53,29,1537
+2024-12-27,Waffly,Chocolate,Large,37,39,1443
+2024-12-27,Waffly,Strawberry,Large,18,39,702
+2024-12-27,Waffly,Caramel,Large,54,39,2106
+2024-12-27,Waffly,Choco-berry,Large,76,39,2964
+2024-12-27,Waffly,Choco-caramel,Large,26,39,1014
+2024-12-27,Waffly,Berry-caramel,Large,34,39,1326
+2024-12-27,WaterStation,Gallon Round,New,72,150,10800
+2024-12-27,WaterStation,Gallon Round,Refill,51,20,1020
+2024-12-27,WaterStation,Gallon Slim,New,83,150,12450
+2024-12-27,WaterStation,Gallon Slim,Refill,15,20,300
+2024-12-27,WaterStation,350ml,New,13,150,1950
+2024-12-27,WaterStation,500ml,New,58,150,8700
+2024-12-28,Kkopi,Coffee,Solo,81,39,3159
+2024-12-28,Kkopi,Milktea,Jumbo,69,49,3381
+2024-12-28,Kkopi,Fruit Tea,Jumbo,24,49,1176
+2024-12-28,Waffly,Chocolate,Regular,96,29,2784
+2024-12-28,Waffly,Strawberry,Regular,21,29,609
+2024-12-28,Waffly,Caramel,Regular,31,29,899
+2024-12-28,Waffly,Choco-berry,Regular,15,29,435
+2024-12-28,Waffly,Choco-caramel,Regular,14,29,406
+2024-12-28,Waffly,Berry-caramel,Regular,82,29,2378
+2024-12-28,Waffly,Chocolate,Large,53,39,2067
+2024-12-28,Waffly,Strawberry,Large,91,39,3549
+2024-12-28,Waffly,Caramel,Large,90,39,3510
+2024-12-28,Waffly,Choco-berry,Large,74,39,2886
+2024-12-28,Waffly,Choco-caramel,Large,67,39,2613
+2024-12-28,Waffly,Berry-caramel,Large,22,39,858
+2024-12-28,WaterStation,Gallon Round,New,55,150,8250
+2024-12-28,WaterStation,Gallon Round,Refill,66,20,1320
+2024-12-28,WaterStation,Gallon Slim,New,54,150,8100
+2024-12-28,WaterStation,Gallon Slim,Refill,68,20,1360
+2024-12-28,WaterStation,350ml,New,59,150,8850
+2024-12-28,WaterStation,500ml,New,49,150,7350
+2024-12-29,Kkopi,Coffee,Solo,31,39,1209
+2024-12-29,Kkopi,Milktea,Jumbo,16,49,784
+2024-12-29,Kkopi,Fruit Tea,Jumbo,42,49,2058
+2024-12-29,Waffly,Chocolate,Regular,7,29,203
+2024-12-29,Waffly,Strawberry,Regular,68,29,1972
+2024-12-29,Waffly,Caramel,Regular,89,29,2581
+2024-12-29,Waffly,Choco-berry,Regular,88,29,2552
+2024-12-29,Waffly,Choco-caramel,Regular,3,29,87
+2024-12-29,Waffly,Berry-caramel,Regular,21,29,609
+2024-12-29,Waffly,Chocolate,Large,16,39,624
+2024-12-29,Waffly,Strawberry,Large,68,39,2652
+2024-12-29,Waffly,Caramel,Large,23,39,897
+2024-12-29,Waffly,Choco-berry,Large,58,39,2262
+2024-12-29,Waffly,Choco-caramel,Large,21,39,819
+2024-12-29,Waffly,Berry-caramel,Large,46,39,1794
+2024-12-29,WaterStation,Gallon Round,New,89,150,13350
+2024-12-29,WaterStation,Gallon Round,Refill,98,20,1960
+2024-12-29,WaterStation,Gallon Slim,New,91,150,13650
+2024-12-29,WaterStation,Gallon Slim,Refill,36,20,720
+2024-12-29,WaterStation,350ml,New,48,150,7200
+2024-12-29,WaterStation,500ml,New,44,150,6600
+2024-12-30,Kkopi,Coffee,Solo,85,39,3315
+2024-12-30,Kkopi,Milktea,Jumbo,100,49,4900
+2024-12-30,Kkopi,Fruit Tea,Jumbo,94,49,4606
+2024-12-30,Waffly,Chocolate,Regular,62,29,1798
+2024-12-30,Waffly,Strawberry,Regular,97,29,2813
+2024-12-30,Waffly,Caramel,Regular,5,29,145
+2024-12-30,Waffly,Choco-berry,Regular,54,29,1566
+2024-12-30,Waffly,Choco-caramel,Regular,44,29,1276
+2024-12-30,Waffly,Berry-caramel,Regular,16,29,464
+2024-12-30,Waffly,Chocolate,Large,83,39,3237
+2024-12-30,Waffly,Strawberry,Large,19,39,741
+2024-12-30,Waffly,Caramel,Large,83,39,3237
+2024-12-30,Waffly,Choco-berry,Large,38,39,1482
+2024-12-30,Waffly,Choco-caramel,Large,70,39,2730
+2024-12-30,Waffly,Berry-caramel,Large,4,39,156
+2024-12-30,WaterStation,Gallon Round,New,24,150,3600
+2024-12-30,WaterStation,Gallon Round,Refill,31,20,620
+2024-12-30,WaterStation,Gallon Slim,New,52,150,7800
+2024-12-30,WaterStation,Gallon Slim,Refill,38,20,760
+2024-12-30,WaterStation,350ml,New,58,150,8700
+2024-12-30,WaterStation,500ml,New,21,150,3150
+2024-12-31,Kkopi,Coffee,Solo,86,39,3354
+2024-12-31,Kkopi,Milktea,Jumbo,17,49,833
+2024-12-31,Kkopi,Fruit Tea,Jumbo,46,49,2254
+2024-12-31,Waffly,Chocolate,Regular,53,29,1537
+2024-12-31,Waffly,Strawberry,Regular,42,29,1218
+2024-12-31,Waffly,Caramel,Regular,65,29,1885
+2024-12-31,Waffly,Choco-berry,Regular,39,29,1131
+2024-12-31,Waffly,Choco-caramel,Regular,62,29,1798
+2024-12-31,Waffly,Berry-caramel,Regular,22,29,638
+2024-12-31,Waffly,Chocolate,Large,46,39,1794
+2024-12-31,Waffly,Strawberry,Large,40,39,1560
+2024-12-31,Waffly,Caramel,Large,80,39,3120
+2024-12-31,Waffly,Choco-berry,Large,26,39,1014
+2024-12-31,Waffly,Choco-caramel,Large,4,39,156
+2024-12-31,Waffly,Berry-caramel,Large,49,39,1911
+2024-12-31,WaterStation,Gallon Round,New,44,150,6600
+2024-12-31,WaterStation,Gallon Round,Refill,59,20,1180
+2024-12-31,WaterStation,Gallon Slim,New,100,150,15000
+2024-12-31,WaterStation,Gallon Slim,Refill,51,20,1020
+2024-12-31,WaterStation,350ml,New,95,150,14250
+2024-12-31,WaterStation,500ml,New,51,150,7650
